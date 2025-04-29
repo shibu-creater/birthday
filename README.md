@@ -1,2 +1,23 @@
-# birthday
-birthday wish with basics of html and css for my sis
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aarthi Birthday</title>
+  <link href="style.css" rel="stylesheet"/>
+    </head>
+<body>
+  <h1>🎉 HAPPY BIRTHDAY AARTHI 🎂</h1>
+  <a href='/suprise'>
+    <button>Click for surprise!</button>
+  </a>
+  <script>
+    const password = prompt("Enter password:");
+    if (password === "bday123") {
+      document.body.style.display = "block"; // show content
+    } else {
+      alert("Access Denied!");
+      window.close(); // tries to close the tab
+      window.location.href = "about:blank"; // or redirect to blank
+    }
+  </script>
+</body>
+</html>

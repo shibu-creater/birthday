@@ -12,7 +12,7 @@
   <script>
     const password = prompt("Enter password:");
     if (password === "bday123") {
-      document.body.style.display = "block"; // show content of the page
+      document.body.style.display = "block"; // show content
     } else {
       alert("Access Denied!");
       window.close(); // tries to close the tab
